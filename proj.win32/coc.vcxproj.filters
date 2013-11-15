@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameControl">
+      <UniqueIdentifier>{933530ab-b2be-484d-ba0c-0612b0754f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetWork">
+      <UniqueIdentifier>{c66fbca5-49cc-4734-9c1c-59a236ee02d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetMessage">
+      <UniqueIdentifier>{d4e1dd9d-8e74-4bbd-b070-95abbc98ba37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameControl\GameControl.cpp">
+      <Filter>Classes\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameControl\GamePlatform.cpp">
+      <Filter>Classes\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameControl\GameFile.cpp">
+      <Filter>Classes\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetGoogleFilter.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetMessageManager.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetMessageRequest.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetMessageResponse.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetSocket.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\BattleMatching.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\BattleStart.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\CancleBattle.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\DownloadBattleInfor.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\DownloadMapInfor.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\IMessage.pb.cpp">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\IoFile.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\OperateSequence.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\ProduceSoldiers.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\PVPGradeOrder.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\Recharge.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\RevengeBattle.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\UploadBattleFlow.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\UploadBattleResult.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\UserLogin.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetMessage\UserRegisterInfo.pb.cc">
+      <Filter>Classes\NetMessage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameControl\GameControl.h">
+      <Filter>Classes\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameControl\GamePlatform.h">
+      <Filter>Classes\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameControl\GameFile.h">
+      <Filter>Classes\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConst.h">
+      <Filter>Classes\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetGoogleFilter.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetMessageManager.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetMessageRequest.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetMessageResponse.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetSocket.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\AllMessageHead.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\BattleMatching.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\BattleStart.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\CancleBattle.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\DownloadBattleInfor.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\DownloadMapInfor.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\IMessage.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\IoFile.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\OperateSequence.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\ProduceSoldiers.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\PVPGradeOrder.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\Recharge.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\RevengeBattle.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\UploadBattleFlow.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\UploadBattleResult.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\UserLogin.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetMessage\UserRegisterInfo.pb.h">
+      <Filter>Classes\NetMessage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
